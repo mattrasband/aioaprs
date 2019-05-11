@@ -95,4 +95,4 @@ class Client:
         try:
             return aprslib.parse(message)
         except aprslib.exceptions.UnknownFormat:
-            print("Unsupported format:", message)
+            logger.error("Unknown format: %s", message)
