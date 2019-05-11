@@ -7,7 +7,7 @@ Asyncio Based APRS client
 ### Install
 
 ```bash
-$ pip install -U https://github.com/mrasband/aioaprs.get
+$ pip install -U https://github.com/mrasband/aioaprs.git
 ```
 
 
